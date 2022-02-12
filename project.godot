@@ -14,7 +14,6 @@ config/name="Random Game"
 config/description="AAAAAAAAAAAAA
 Hacknotts 12/02/2022"
 run/main_scene="res://World Screen.tscn"
-config/icon="res://icon.png"
 
 [display]
 
