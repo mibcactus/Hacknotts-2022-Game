@@ -5,14 +5,13 @@
 
 [sub_resource type="CapsuleShape2D" id=1]
 radius = 4.0
-height = 8.0
+height = 6.0
 
 [node name="Player Kinematic Body" type="KinematicBody2D"]
 position = Vector2( 8, 8 )
 collision_layer = 3
 script = ExtResource( 2 )
 MAXSPEED = 1500
-FRICTION = 500
 
 [node name="Player" type="Sprite" parent="."]
 position = Vector2( -8, -8 )
@@ -20,4 +19,5 @@ texture = ExtResource( 1 )
 centered = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( 0, 1 )
 shape = SubResource( 1 )
