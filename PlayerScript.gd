@@ -11,7 +11,6 @@ func _physics_process(delta):
 	var inVel = Vector2.ZERO
 	
 	inVel.x = Input.get_action_strength("ui_right") - Input.get_action_strength("ui_left")
-	
 	if Input.is_action_just_pressed("ui_accept") and is_on_floor():
 		inVel.y = JUMPHEIGHT
 	

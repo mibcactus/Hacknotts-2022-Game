@@ -162,7 +162,7 @@ position = Vector2( 128, 72 )
 texture = ExtResource( 1 )
 
 [node name="Filter" type="Sprite" parent="."]
-modulate = Color( 1, 0.977, 0.94, 0.694118 )
+modulate = Color( 0, 1, 0.384314, 0.470588 )
 position = Vector2( 128, 72 )
 scale = Vector2( 17, 10 )
 texture = ExtResource( 10 )
